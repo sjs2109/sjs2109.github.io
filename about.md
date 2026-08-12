@@ -1,19 +1,11 @@
 ---
-layout: page
-titles:
-  en: About
-key: page-about
+layout: post
+title: 소개
+permalink: /about
 ---
-{% highlight python %}
-print("Hello world")
-{% endhighlight %}
 
-## Skills and interests
+나는 기술을 만들고, 책을 읽고, 문제를 풀면서 생각이 바뀌는 순간을 기록합니다.
 
-- C,C++,Python 3
-- Linux, Embedded system, Machine leaning, NLP
+이곳의 글은 개인 지식 저장소의 자료를 바탕으로 쓰되, 원문을 옮기거나 개인과 조직을 식별할 수 있는 정보를 공개하지 않는 것을 원칙으로 합니다. 하나의 글에는 하나의 질문만 남기고, 결론보다 그 결론에 이르는 관찰과 한계를 함께 적으려 합니다.
 
-## Personal information
-- INTJ
-- sjs2109@gmail.com
-
+매일 쓰는 것을 목표로 하지만, 게시하는 것은 매일 자동으로 결정하지 않습니다. 초안은 검토를 거치고, 내가 승인한 글만 이 사이트에 올라옵니다.

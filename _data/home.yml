@@ -1,0 +1,19 @@
+navbar_entries:
+  - title: 글
+    url: blog
+
+  - title: 소개
+    url: about
+
+  - title: 태그
+    url: tags
+
+footer_entries:
+  - title: github
+    url: https://github.com/sjs2109
+
+  - title: feed
+    url: feed.xml
+
+  - title: tags
+    url: tags

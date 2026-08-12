@@ -1,127 +1,54 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-#
-# ,--------.      ,--.   ,--. ,--.
-# '--.  .--',---.  \  `.'  /,-'  '-.
-#    |  |  | .-. :  .'    \ '-.  .-'
-#    |  |  \   --. /  .'.  \  |  |
-#    `--'   `----''--'   '--' `--'
+title: 지석의 노트
+author: 지석
+url: https://sjs2109.github.io
+baseurl: ""
+description: >-
+  읽고, 만들고, 다시 생각한 것을 한 편의 글로 남깁니다.
+lang: ko
+timezone: Asia/Seoul
+permalink: /:slug
 
-text_color_theme: default #eg: default | dark | forest | ocean | chocolate | orange
-## Base settings ##
-# url:  #the base hostname & protocol for your site e.g. https://www.someone.com
-baseurl: /
-title: sjs2109's blog
-description: > #this means to ignore newlines until "nav_lists:"
-  sjs2109's blog
+theme_config:
+  appearance: "auto"
+  appearance_toggle: true
+  date_format: "%Y-%m-%d"
+  show_description: true
+  show_navbar: true
+  show_footer: true
+  show_copyright: true
+  show_projects: false
+  show_blog: true
+  show_old_projects: false
+  show_misc_list: false
+  show_reading_time: true
+  show_tags: true
+  show_code_copy: true
+  show_progress_bar: true
+  show_back_to_top: true
+  show_post_nav: true
+  show_toc: true
+  show_footnote_tooltips: true
+  show_link_previews: true
+  home:
+    title_projects: Projects
+    title_misc_list: Details
+    title_blog: 글
+    title_old_projects: Archive
 
-nav_lists:
-  - titles:
-      en: About
-    url: /about.html
-
-# paths:
-#   base: /
-#   home: /
-#   all:  /all.html
-#   rss:  /feed.xml
-
-## GitHub repository (if the site is hosted by GitHub) ##
-# repository:  #e.g. someone/someone.github.io
-# repository_tree:  #e.g. master
-
-## Language & timezone ##
-lang: kr #the language of your site
-timezone: Asia/Seoul #see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
-
-## Author & social ##
-author:
-  name: Someone
-  # email:  sjs2109@gmail.com
-  # facebook:  #your Facebook username
-  # twitter:  #your Twitter username
-  # github:  lovetube
-  # googleplus:  #your Google+ username
-  # weibo:  #your Weibo username
-  # douban:  #your Douban username
-  # linkedin:  #your Linkedin username
-
-## TOC
-toc:
-  # selectors: 'h1,h2,h3'
-
-## Comment system (Disqus) ##
-disqus:
-  # shortname:  #the Disqus shortname for the site
-
-## Comment system (gitalk) ##
-# please refer to https://github.com/gitalk/gitalk for more info.
-gitalk:
-  # clientID:  #Github Application Client ID
-  # clientSecret:  #Github Application Client Secret
-  # repository:  #Github repo
-  # owner:  #Github repo owner
-  # admin: #Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
-    # - owner
-
-## Google Analytics ##
-ga_tracking_id: UA-117421392-1  #Google analytics id for the site
-
-## Reading quantity (LeanCloud) ##
-leancloud:
-  # app_id:  #LeanCloud App id
-  # app_key:  #LeanCloud App key
-  # app_class:  #LeanCloud App class
-
-# mathjax: false
-# mathjax_autoNumber: false
-# mermaid: false
-# chart: false
-
-## Paginate ##
-paginate: 7
-paginate_path: /blog/page:num
-
-## Post excerpts ##
-excerpt_separator: <!--more-->
-excerpt_type: text # text | html
-
-## Sources ##
-# sources: bootcss #eg: bootcss | unpkg
-
-## Build ##
-markdown: kramdown
 highlighter: rouge
-permalink: date
+
+sass:
+  style: :compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 exclude:
-  - CHANGELOG.md
-  - CHECKLIST.md
   - Gemfile
   - Gemfile.lock
-  - LICENSE
-  - README-*.md
   - README.md
-  - gulpfile.js
-  - jekyll-text-theme.gemspec
-  - package-lock.json
-  - package.json
-  - /docs
-  - /node_modules
-  - /screenshots
-  - /test
-  - /vendor
-
-## Plugins ##
-plugins:
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-paginate
-  - jemoji
-
-## Server ##
-server_url: "0.0.0.0"
+  - LICENSE.txt
+  - .ruby-version
+  - vendor
