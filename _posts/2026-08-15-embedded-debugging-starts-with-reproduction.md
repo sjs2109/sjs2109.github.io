@@ -5,6 +5,7 @@ date: 2026-08-15 09:00:00 +0900
 author: 다섯시사십분
 tags: [essay, automotive, embedded-systems, debugging]
 toc: true
+description: "자동차 임베디드 장애를 분석할 때는 같은 조건에서 문제를 재현하고 로그와 관찰 계층을 좁혀 원인을 확인해야 한다."
 summary: "자동차 임베디드 장애를 고치기 전에 같은 조건에서 다시 발생시키고, 관찰할 계층을 좁혀야 한다."
 ---
 

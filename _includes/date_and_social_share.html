@@ -1,7 +1,7 @@
 <div class="post-meta">
   <div class="post-meta-line">
     {% if page.author %}
-      <span class="post-meta-author">{{ page.author }}</span>
+      <a href="{{ "/about" | relative_url }}" class="post-meta-author">{{ page.author }}</a>
       <span class="post-meta-sep">·</span>
     {% endif %}
     {% if page.date %}

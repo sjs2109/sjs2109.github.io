@@ -5,6 +5,7 @@ date: 2026-08-18 09:00:00 +0900
 author: 다섯시사십분
 tags: [essay, learning]
 toc: true
+description: "AI 생성 속도로 생산성을 판단하기 전에 사실 확인, 출처 검증, 수정에 드는 시간을 함께 계산해야 한다."
 summary: "AI의 생산성은 생성 속도보다 검증에 드는 비용까지 봐야 한다."
 ---
 

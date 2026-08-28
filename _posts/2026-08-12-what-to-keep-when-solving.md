@@ -5,6 +5,7 @@ date: 2026-08-12 09:00:00 +0900
 author: 다섯시사십분
 tags: [essay, problem-solving, learning, algorithms]
 toc: true
+description: "알고리즘 문제 해결에서 중요한 것은 기법 이름보다 미래의 결과를 바꾸는 상태를 남기고 나머지를 버리는 기준이다."
 summary: "문제 해결은 알고리즘 이름을 고르는 일이기보다, 미래를 바꿀 사실만 남기고 나머지를 버릴 근거를 찾는 일이다."
 ---
 
