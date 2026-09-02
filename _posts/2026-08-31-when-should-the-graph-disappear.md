@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "그래프는 언제 지워져야 할까"
-date: 2026-09-02 09:00:00 +0900
+date: 2026-08-31 09:00:00 +0900
 author: 다섯시사십분
 tags: [essay, learning]
 toc: true
