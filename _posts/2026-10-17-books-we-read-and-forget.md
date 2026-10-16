@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "읽었는데 기억이 안 나는 책"
-date: 2026-10-17 09:00:00 +0900
+date: 2026-10-17 00:00:00 +0900
 author: 다섯시사십분
 tags: [essay, reading, books]
 toc: true
